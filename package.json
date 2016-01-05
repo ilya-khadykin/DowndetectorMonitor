@@ -1,0 +1,15 @@
+{
+  "name": "downdetector-monitor",
+  "version": "0.0.1",
+  "description": "Constantly requests RSS feed of events from downdetector.com and sends notifications to configured services",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khadykin Ilya <ilya.khadykin@sperasoft.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "feedparser": "^1.1.4",
+    "request": "^2.67.0"
+  }
+}
